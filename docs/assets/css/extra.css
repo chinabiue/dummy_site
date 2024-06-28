@@ -1,0 +1,243 @@
+.md-grid {
+  max-width: 85%;
+}
+
+.red {
+  color: red;
+}
+
+.orange {
+  color: orange;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.green {
+  color: green;
+}
+
+.aqua {
+  color: aqua;
+}
+
+.blue {
+  color: blue;
+}
+
+.purple {
+  color: purple;
+}
+
+.pink {
+  color: pink;
+}
+
+/* 
+.mdx-container {
+  background: url("data:image/svg+xml;utf8,<svg width='100%' height='100%' viewBox='0 0 1123 258' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'><g transform='matrix(-1.01432,0,0,0.388868,1134.41,161.501)'><path d='M1124,2L1124,258L-1,258L-1,210C-1,210 15,215 54,215C170,215 251,123 379,123C500,123 493,169 633,169C773,169 847,2 1205,3L1124,2Z' style='fill:rgb(250, 250, 250);fill-rule:nonzero;'/></g></svg>") no-repeat bottom,
+    linear-gradient(to bottom, rgb(255 255 255/.8), #00C2CE 99%, var(--md-default-bg-color) 99%);
+  background-size: contain;
+  padding-top: 1rem;
+}
+
+[data-md-color-scheme="slate"] .mdx-container {
+  background: url("data:image/svg+xml;utf8,<svg width='100%' height='100%' viewBox='0 0 1123 258' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'><g transform='matrix(-1.01432,0,0,0.388868,1134.41,161.501)'><path d='M1124,2L1124,258L-1,258L-1,210C-1,210 15,215 54,215C170,215 251,123 379,123C500,123 493,169 633,169C773,169 847,2 1205,3L1124,2Z' style='fill:rgb(26, 26, 27);fill-rule:nonzero;'/></g></svg>") no-repeat bottom, rgba(9, 9, 9, 0.95);
+  background-size: contain;
+}
+
+.mdx-hero {
+  color: var(--hb-hero-color);
+  margin: 0 0.8rem;
+}
+
+.mdx-hero h1 {
+  color: currentcolor;
+  margin-bottom: 1rem;
+  font-size: 2.6rem;
+}
+
+@media screen and (max-width: 29.9375em) {
+  .mdx-hero h1 {
+    font-size: 1.4rem;
+  }
+}
+
+.mdx-hero__content {
+  padding-bottom: 6rem;
+}
+
+@media screen and (min-width: 60em) {
+  .mdx-hero {
+    align-items: stretch;
+    display: flex;
+  }
+
+  .mdx-hero__content {
+    margin-top: 3.5rem;
+    max-width: 38rem;
+    padding-bottom: 14vw;
+  }
+
+  .mdx-hero__image {
+    order: 1;
+    transform: translateX(4rem);
+    width: 38rem;
+  }
+}
+
+@media screen and (min-width: 76.25em) {
+  .mdx-hero__image {
+    transform: translateX(8rem);
+  }
+}
+
+.mdx-hero .md-button {
+  color: var(--hb-hero-color);
+  border-color: var(--hb-hero-color);
+}
+
+[data-md-color-scheme="slate"] .mdx-hero .md-button--primary {
+  color: var(--md-primary-fg-color);
+}
+
+.mdx-hero .md-button--primary {
+  color: var(--md-primary-fg-color);
+  background-color: var(--hb-hero-color);
+  border-color: transparent;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.md-main .md-button--primary {
+  color: var(--md-primary-fg-color);
+  background-color: var(--hb-hero-color);
+  border-color: transparent;
+}
+
+nav[class="md-tabs"] {
+  border-bottom: none;
+} */
+
+
+
+/* kkkkkkkkkkkkkkkkkkkk */
+
+
+/* Define brand */
+:root,
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: rgb(250, 250, 250);
+  --md-primary-fg-color: rgb(255, 255, 255);
+  --md-primary-fg-color--light: #5FFFD7;
+  --md-primary-fg-color--dark: #ff00e6;
+  --md-primary-bg-color: rgba(0, 0, 0, .75);
+  --md-primary-bg-color--light: rgba(0, 0, 0, .54);
+  --md-accent-fg-color: #ff00e6;
+  --pg-light-border: rgb(229, 231, 235);
+  --hb-hero-color: rgb(45, 45, 45);
+}
+
+:root,
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: rgb(26, 26, 27);
+  --md-primary-fg-color: rgb(15, 15, 15);
+  --md-primary-fg-color--light: #F6FFD7;
+  --md-primary-fg-color--dark: #FCDB17;
+  --md-primary-bg-color: rgba(0, 0, 0, .75);
+  --md-primary-bg-color--light: rgba(0, 0, 0, .54);
+  --md-accent-fg-color: #FCDB17;
+  --pg-light-border: rgb(47, 47, 47);
+  --hb-hero-color: #5FFFD7;
+  --md-footer-bg-color--dark: var(--md-default-bg-color);
+}
+
+/* Better contrast link colors */
+[data-md-color-scheme="default"]>* {
+  --md-typeset-a-color: #00B1BB;
+}
+
+[data-md-color-scheme="slate"]>* {
+  --md-typeset-a-color: #5FFFD7;
+}
+
+/* buttons */
+.md-typeset .md-button {
+  color: var(--md-typeset-color);
+  background: none;
+  border: 1px solid var(--md-accent-fg-color);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 3px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px -1px;
+}
+
+.md-typeset .md-button--primary {
+  color: var(--md-typeset-a-color);
+  background-color: var(--md-accent-fg-color);
+}
+
+.md-typeset .grid.cards>:-webkit-any(ul, ol)>li:-webkit-any(:focus-within, :hover) {
+  /* Webkit */
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 3px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px -1px;
+  border-color: var(--md-accent-fg-color);
+}
+
+/* header font */
+.md-header__topic:first-child {
+  font-weight: 700;
+}
+
+.md-typeset h1 {
+  font-weight: 700;
+  color: var(--md-typeset-a-color);
+}
+
+[data-md-color-scheme="slate"] .md-header>*,
+[data-md-color-scheme="slate"] .md-tabs {
+  color: #fff;
+}
+
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+
+  [data-md-color-scheme="slate"] .md-header,
+  [data-md-color-scheme="slate"] .md-tabs {
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+  }
+
+  [data-md-color-scheme="default"] .md-header,
+  [data-md-color-scheme="default"] .md-tabs {
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+  }
+}
+
+.md-header {
+  background-color: var(--md-primary-fg-color);
+  box-shadow: 0 0 .2rem #0000, 0 .2rem .4rem #0000;
+  color: var(--md-primary-bg-color);
+  display: block;
+  left: 0;
+  position: sticky;
+  right: 0;
+  top: 0;
+  z-index: 4
+}
+
+.headshot {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  /* Ensures the image keeps its aspect ratio */
+}
+
+/* Centered item */
+.centered {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
